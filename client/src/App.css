@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: hero;
+    src: url('./assets/NFChimaeraSans-Regular.otf')format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dots {
+  background: radial-gradient(circle, #5d5d5d92 1px, transparent 0.6px);
+  background-size: 15px 15px;
+}
+
+html ,body{
+  overscroll-behavior-x: none;
+  scroll-behavior: smooth;
+  background: radial-gradient(circle, #5d5d5d92 1px, transparent 0.6px);
+  background-size: 15px 15px;
+}
+
+
+
