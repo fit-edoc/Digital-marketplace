@@ -7,7 +7,7 @@ export default defineConfig({
   
   server:{
     open:true,
-    proxy:" https://45f175284c0e.ngrok-free.app",
+    proxy:" https://af8180b766e5.ngrok-free.app",
     allowedHosts:true
   }
 })

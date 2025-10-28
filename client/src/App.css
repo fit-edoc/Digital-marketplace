@@ -17,9 +17,14 @@
 html ,body{
   overscroll-behavior-x: none;
   scroll-behavior: smooth;
-  background: radial-gradient(circle, #5d5d5d92 1px, transparent 0.6px);
-  background-size: 15px 15px;
+  overflow-x: hidden;
+
 }
 
+.card{
+  background: radial-gradient(circle, #5d5d5d92 1px, transparent 0.6px);
+  background-size: 15px 15px;
+
+}
 
 

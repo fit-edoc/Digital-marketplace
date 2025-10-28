@@ -4,13 +4,13 @@ import { motion, useAnimation } from "motion/react";
 const Hero = () => {
   const controls = useAnimation();
 
-  // Animate X translation from 0% to -50% infinitely
+ 
   const loopAnimation = {
     x: ["0%", "-50%"],
     transition: {
       repeat: Infinity,
       ease: "linear",
-      duration: 20, // lower = faster scroll
+      duration: 20, 
     },
   };
 
@@ -58,9 +58,9 @@ const Hero = () => {
         <div className="cor soverflow-hidden w-full mt-[50px] ">
           <motion.div
             animate={controls}
-            className="flex relative justify-center items-center  gap-2 w-max"
+            className="flex relative justify-center items-center   gap-2 w-max"
           >
-            {/* First set of images */}
+           <div className="hor absolute h-full w-full  inset-0"></div>
             <div className="flex gap-2">
               {photosdata.map((item, index) => (
                 <div
@@ -77,7 +77,7 @@ const Hero = () => {
               ))}
             </div>
 
-            {/* Duplicate set for infinite effect */}
+           
             <div className="flex gap-2">
               {photosdata.map((item, index) => (
                 <div
