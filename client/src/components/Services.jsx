@@ -30,7 +30,7 @@ const services = [
       "We create modern, fast, and responsive websites using React, Next.js, and headless CMS — optimized for performance and conversion.",
     icon: "💻",
     category: "Development",
-    img:"/web.jpg"
+    img:"https://i.pinimg.com/1200x/b0/54/5d/b0545d16d764012ca5b4763740ef0fda.jpg"
   },
   {
     id: 3,
