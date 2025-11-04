@@ -7,6 +7,7 @@ import Hero from './components/Hero'
 import Services from './components/Services'
 import HowWeWork from './components/HowWeWork'
 import Footer from './components/Footer'
+import Testimonials from './components/Testinomials'
 
 function App() {
 
@@ -17,7 +18,16 @@ function App() {
    <Nav/>
    <Hero/>
   <section id='service'> <Services/></section>
+
+  <section id='process'>
+
+
+
   <HowWeWork/>
+  </section>
+  <section id='testinomial'>
+    <Testimonials/>
+  </section>
   <Footer/>
    </>
   )
